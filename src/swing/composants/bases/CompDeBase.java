@@ -2,13 +2,14 @@
 package swing.composants.bases;
 import javax.swing.*;
 import java.awt.*;
+
 public class CompDeBase extends JFrame {
     //Note: Composant etiquette instance de JLabel
     JLabel etiquette = new JLabel("JLabel : Ceci est une etiquette");
     //Note: Composant zoneDeTexte instance de JTextField
     JTextField zoneDeTexte = new JTextField("JTextField : texte sur une ligne",30);
     //Note: Composant saisieCachee instance de JPasswordField
-    JPasswordField saisieCachee = new JPasswordField(30);
+    JPasswordField saisieCachee = new JPasswordField("Test",30);
     //Note: Composant texteMultiligne instance de JTextArea
     JTextArea texteMultiligne =
             new JTextArea("JTextArea : \nTextes sur plusieurs\nligne", 5, 30);
